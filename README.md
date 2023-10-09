@@ -7,6 +7,12 @@ Terraform module containing a SSH access enabled EC2 instance.
 
 
 # usage
+
+
+
+
+
+'''
 module "test_env_module" {
   source = "github.com/akilblanchard/terraform-aws-ssh-ec2-module"
 
@@ -24,3 +30,4 @@ output "instance_public_ip" {
   description = "Public Ip of the EC2 instance(s)"
   value       = module.test_env_module.instance_public_ip
 }
+'''

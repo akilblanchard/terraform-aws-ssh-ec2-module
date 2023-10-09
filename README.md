@@ -28,4 +28,4 @@ output "instance_public_ip" {
 | Name | Version |
 |------|---------|
 | <a name="provider_aws"></a> [aws](#provider\_aws) | 5.18.1 |
-| Name                                             | Version |
+

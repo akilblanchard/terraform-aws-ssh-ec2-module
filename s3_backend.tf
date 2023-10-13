@@ -9,7 +9,7 @@ resource "aws_s3_bucket" "state" {
 
 #Versioning for State Bucket
 resource "aws_s3_bucket_versioning" "state" {
-  bucket = var.bucket_name
+  bucket = var.s3_bucket_name
 
   versioning_configuration {
     status = var.s3_versioning

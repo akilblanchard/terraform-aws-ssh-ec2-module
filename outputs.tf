@@ -5,7 +5,7 @@ output "instance_id" {
 
 output "instance_public_ip" {
   description = "Public Ip of the EC2 instance(s)"
-  value       = aws_s3_bucket.instance_public_ip
+  value       = module.test_env_module.instance_public_ip
 }
 
 

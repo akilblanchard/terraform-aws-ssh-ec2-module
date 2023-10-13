@@ -6,6 +6,11 @@ variable "availability_zone" {
   type        = string
 }
 
+variable "aws_region"{
+  description = "region"
+  type = string
+}
+
 #------------------
 #Key Pair Variables
 #------------------

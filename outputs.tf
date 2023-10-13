@@ -5,11 +5,11 @@ output "instance_id" {
 
 output "instance_public_ip" {
   description = "Public Ip of the EC2 instance(s)"
-  value       = module.test_env_module.instance_public_ip
+  value       = aws_s3_bucket.instance_public_ip
 }
 
 
 output "instance_private_ip" {
   description = "Private Ip of the EC2 instance(s)"
-  value       = module.test_env_module.instance_private_ip
+  value       = module.test_env.instance_private_ip
 }

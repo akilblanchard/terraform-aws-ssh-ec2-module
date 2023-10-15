@@ -48,6 +48,7 @@ output "instance_private_ip" {
 
 
 # Usage for just launching ec2 instances and having the Terraform State file stored in an S3 bucket
+
 When using this run the module first then uncomment the backend block and migrate the tfstate file to the s3 bucket.
 ```
 module "test_env_module" {

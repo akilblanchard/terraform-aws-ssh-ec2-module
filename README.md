@@ -4,12 +4,11 @@ This Terraform module creates a vpc consisting of a Subnet with an internet gate
 The module will also provide the capability to store the Terraform tfstate file in an s3 bucket coupled with a DynamoDB Table for state locking
 
 
-Below I will break down the usage for this module
-
-# Usage for just launching ec2 instances and having the Terraform State file stored in an S3 bucket
+---
+## Usage for just launching ec2 instances and having the Terraform State file stored in an S3 bucket
 
 When using this run the module first then uncomment the backend block and migrate the tfstate file to the s3 bucket.
-```
+---
 module "test_env_module" {
   source = "github.com/akilblanchard/terraform-aws-ssh-ec2-module.git"
 

@@ -1,4 +1,4 @@
-# terraform-aws-ssh-ec2-module Terraform AWS SSH EC2 Access
+# Terraform AWS Ssh Ec2 Access Module
 
 This Terraform module creates a vpc consisting of a Subnet with an internet gateway attached to it, a security group that allows for ssh access, routing tables, allows you to specify the amount of instances needed for launch and each instance will be equipped with the latest version of Ubuntu 20.04
 The module will also provide the capability to store the Terraform tfstate file in an s3 bucket coupled with a DynamoDB Table for state locking

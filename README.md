@@ -7,7 +7,7 @@ The module will also provide the capability to store the Terraform tfstate file 
 ---
 ## Usage for just launching ec2 instances and having the Terraform State file stored in an S3 bucket
 
-When using this run the module first then uncomment the backend block and migrate the tfstate file to the s3 bucket.
+When using this module, first run the module then uncomment the backend block as this will migrate the state file to the s3 bucket.
 ---
 module "test_env_module" {
   source = "github.com/akilblanchard/terraform-aws-ssh-ec2-module.git"
